@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF3440518172D15006F27FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3440418172D15006F27FD /* Foundation.framework */; };
+		EBF3440718172D15006F27FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3440618172D15006F27FD /* CoreGraphics.framework */; };
+		EBF3440918172D15006F27FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3440818172D15006F27FD /* UIKit.framework */; };
+		EBF3440F18172D15006F27FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBF3440D18172D15006F27FD /* InfoPlist.strings */; };
+		EBF3441118172D15006F27FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3441018172D15006F27FD /* main.m */; };
+		EBF3441518172D15006F27FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3441418172D15006F27FD /* AppDelegate.m */; };
+		EBF3441818172D15006F27FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF3441618172D15006F27FD /* Main.storyboard */; };
+		EBF3441B18172D15006F27FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3441A18172D15006F27FD /* ViewController.m */; };
+		EBF3441D18172D15006F27FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF3441C18172D15006F27FD /* Images.xcassets */; };
+		EBF3442418172D16006F27FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3442318172D16006F27FD /* XCTest.framework */; };
+		EBF3442518172D16006F27FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3440418172D15006F27FD /* Foundation.framework */; };
+		EBF3442618172D16006F27FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3440818172D15006F27FD /* UIKit.framework */; };
+		EBF3442E18172D16006F27FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBF3442C18172D16006F27FD /* InfoPlist.strings */; };
+		EBF3443018172D16006F27FD /* Carillon_LiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3442F18172D16006F27FD /* Carillon_LiteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF3442718172D16006F27FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF343F918172D15006F27FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF3440018172D15006F27FD;
+			remoteInfo = "Carillon Lite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBF3440118172D15006F27FD /* Carillon Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carillon Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF3440418172D15006F27FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBF3440618172D15006F27FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBF3440818172D15006F27FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBF3440C18172D15006F27FD /* Carillon Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Carillon Lite-Info.plist"; sourceTree = "<group>"; };
+		EBF3440E18172D15006F27FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBF3441018172D15006F27FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF3441218172D15006F27FD /* Carillon Lite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carillon Lite-Prefix.pch"; sourceTree = "<group>"; };
+		EBF3441318172D15006F27FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBF3441418172D15006F27FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBF3441718172D15006F27FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF3441918172D15006F27FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBF3441A18172D15006F27FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBF3441C18172D15006F27FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBF3442218172D16006F27FD /* Carillon LiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carillon LiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF3442318172D16006F27FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBF3442B18172D16006F27FD /* Carillon LiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Carillon LiteTests-Info.plist"; sourceTree = "<group>"; };
+		EBF3442D18172D16006F27FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBF3442F18172D16006F27FD /* Carillon_LiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Carillon_LiteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF343FE18172D15006F27FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF3440718172D15006F27FD /* CoreGraphics.framework in Frameworks */,
+				EBF3440918172D15006F27FD /* UIKit.framework in Frameworks */,
+				EBF3440518172D15006F27FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF3441F18172D16006F27FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF3442418172D16006F27FD /* XCTest.framework in Frameworks */,
+				EBF3442618172D16006F27FD /* UIKit.framework in Frameworks */,
+				EBF3442518172D16006F27FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF343F818172D15006F27FD = {
+			isa = PBXGroup;
+			children = (
+				EBF3440A18172D15006F27FD /* Carillon Lite */,
+				EBF3442918172D16006F27FD /* Carillon LiteTests */,
+				EBF3440318172D15006F27FD /* Frameworks */,
+				EBF3440218172D15006F27FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF3440218172D15006F27FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF3440118172D15006F27FD /* Carillon Lite.app */,
+				EBF3442218172D16006F27FD /* Carillon LiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF3440318172D15006F27FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF3440418172D15006F27FD /* Foundation.framework */,
+				EBF3440618172D15006F27FD /* CoreGraphics.framework */,
+				EBF3440818172D15006F27FD /* UIKit.framework */,
+				EBF3442318172D16006F27FD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF3440A18172D15006F27FD /* Carillon Lite */ = {
+			isa = PBXGroup;
+			children = (
+				EBF3441318172D15006F27FD /* AppDelegate.h */,
+				EBF3441418172D15006F27FD /* AppDelegate.m */,
+				EBF3441618172D15006F27FD /* Main.storyboard */,
+				EBF3441918172D15006F27FD /* ViewController.h */,
+				EBF3441A18172D15006F27FD /* ViewController.m */,
+				EBF3441C18172D15006F27FD /* Images.xcassets */,
+				EBF3440B18172D15006F27FD /* Supporting Files */,
+			);
+			path = "Carillon Lite";
+			sourceTree = "<group>";
+		};
+		EBF3440B18172D15006F27FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF3440C18172D15006F27FD /* Carillon Lite-Info.plist */,
+				EBF3440D18172D15006F27FD /* InfoPlist.strings */,
+				EBF3441018172D15006F27FD /* main.m */,
+				EBF3441218172D15006F27FD /* Carillon Lite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF3442918172D16006F27FD /* Carillon LiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF3442F18172D16006F27FD /* Carillon_LiteTests.m */,
+				EBF3442A18172D16006F27FD /* Supporting Files */,
+			);
+			path = "Carillon LiteTests";
+			sourceTree = "<group>";
+		};
+		EBF3442A18172D16006F27FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF3442B18172D16006F27FD /* Carillon LiteTests-Info.plist */,
+				EBF3442C18172D16006F27FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF3440018172D15006F27FD /* Carillon Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF3443318172D16006F27FD /* Build configuration list for PBXNativeTarget "Carillon Lite" */;
+			buildPhases = (
+				EBF343FD18172D15006F27FD /* Sources */,
+				EBF343FE18172D15006F27FD /* Frameworks */,
+				EBF343FF18172D15006F27FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carillon Lite";
+			productName = "Carillon Lite";
+			productReference = EBF3440118172D15006F27FD /* Carillon Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF3442118172D16006F27FD /* Carillon LiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF3443618172D16006F27FD /* Build configuration list for PBXNativeTarget "Carillon LiteTests" */;
+			buildPhases = (
+				EBF3441E18172D16006F27FD /* Sources */,
+				EBF3441F18172D16006F27FD /* Frameworks */,
+				EBF3442018172D16006F27FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF3442818172D16006F27FD /* PBXTargetDependency */,
+			);
+			name = "Carillon LiteTests";
+			productName = "Carillon LiteTests";
+			productReference = EBF3442218172D16006F27FD /* Carillon LiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF343F918172D15006F27FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sony Theakanath";
+				TargetAttributes = {
+					EBF3442118172D16006F27FD = {
+						TestTargetID = EBF3440018172D15006F27FD;
+					};
+				};
+			};
+			buildConfigurationList = EBF343FC18172D15006F27FD /* Build configuration list for PBXProject "Carillon Lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF343F818172D15006F27FD;
+			productRefGroup = EBF3440218172D15006F27FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF3440018172D15006F27FD /* Carillon Lite */,
+				EBF3442118172D16006F27FD /* Carillon LiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF343FF18172D15006F27FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF3441D18172D15006F27FD /* Images.xcassets in Resources */,
+				EBF3440F18172D15006F27FD /* InfoPlist.strings in Resources */,
+				EBF3441818172D15006F27FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF3442018172D16006F27FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF3442E18172D16006F27FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF343FD18172D15006F27FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF3441B18172D15006F27FD /* ViewController.m in Sources */,
+				EBF3441518172D15006F27FD /* AppDelegate.m in Sources */,
+				EBF3441118172D15006F27FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF3441E18172D16006F27FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF3443018172D16006F27FD /* Carillon_LiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF3442818172D16006F27FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF3440018172D15006F27FD /* Carillon Lite */;
+			targetProxy = EBF3442718172D16006F27FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF3440D18172D15006F27FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF3440E18172D15006F27FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBF3441618172D15006F27FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF3441718172D15006F27FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF3442C18172D16006F27FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF3442D18172D16006F27FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF3443118172D16006F27FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBF3443218172D16006F27FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF3443418172D16006F27FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carillon Lite/Carillon Lite-Prefix.pch";
+				INFOPLIST_FILE = "Carillon Lite/Carillon Lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBF3443518172D16006F27FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carillon Lite/Carillon Lite-Prefix.pch";
+				INFOPLIST_FILE = "Carillon Lite/Carillon Lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBF3443718172D16006F27FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Carillon Lite.app/Carillon Lite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carillon Lite/Carillon Lite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Carillon LiteTests/Carillon LiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBF3443818172D16006F27FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Carillon Lite.app/Carillon Lite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carillon Lite/Carillon Lite-Prefix.pch";
+				INFOPLIST_FILE = "Carillon LiteTests/Carillon LiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF343FC18172D15006F27FD /* Build configuration list for PBXProject "Carillon Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF3443118172D16006F27FD /* Debug */,
+				EBF3443218172D16006F27FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF3443318172D16006F27FD /* Build configuration list for PBXNativeTarget "Carillon Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF3443418172D16006F27FD /* Debug */,
+				EBF3443518172D16006F27FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBF3443618172D16006F27FD /* Build configuration list for PBXNativeTarget "Carillon LiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF3443718172D16006F27FD /* Debug */,
+				EBF3443818172D16006F27FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF343F918172D15006F27FD /* Project object */;
+}
