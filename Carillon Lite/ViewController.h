@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewControllerDelegate.h"
+#import "UIViewController+MMDrawerController.h"
+#import "MMDrawerVisualState.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ViewControllerDelegate, UIWebViewDelegate>{
+    UIWebView *webview;
+}
+
+@property (strong, nonatomic) IBOutlet UIWebView *webview;
 
 @end

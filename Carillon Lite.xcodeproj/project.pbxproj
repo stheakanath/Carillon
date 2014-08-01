@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB751B4D182D6EF400DFFB0B /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B3C182D6EF400DFFB0B /* MMDrawerBarButtonItem.m */; };
+		EB751B4E182D6EF400DFFB0B /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B3E182D6EF400DFFB0B /* MMDrawerController.m */; };
+		EB751B4F182D6EF400DFFB0B /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B40182D6EF400DFFB0B /* MMDrawerVisualState.m */; };
+		EB751B50182D6EF400DFFB0B /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B42182D6EF400DFFB0B /* MMExampleDrawerVisualStateManager.m */; };
+		EB751B51182D6EF400DFFB0B /* MMExampleLeftSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B44182D6EF400DFFB0B /* MMExampleLeftSideDrawerViewController.m */; };
+		EB751B52182D6EF400DFFB0B /* MMExampleSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B46182D6EF400DFFB0B /* MMExampleSideDrawerViewController.m */; };
+		EB751B53182D6EF400DFFB0B /* MMSideDrawerSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B48182D6EF400DFFB0B /* MMSideDrawerSectionHeaderView.m */; };
+		EB751B54182D6EF400DFFB0B /* MMSideDrawerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B4A182D6EF400DFFB0B /* MMSideDrawerTableViewCell.m */; };
+		EB751B55182D6EF400DFFB0B /* MMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B4C182D6EF400DFFB0B /* MMTableViewCell.m */; };
+		EB751B58182D6F0C00DFFB0B /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB751B57182D6F0C00DFFB0B /* UIViewController+MMDrawerController.m */; };
+		EB751B5B182D99F300DFFB0B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB751B59182D99F300DFFB0B /* ViewController_iPhone.xib */; };
+		EB751B5C182D99F300DFFB0B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB751B5A182D99F300DFFB0B /* ViewController_iPad.xib */; };
+		EB751B60182D9D8C00DFFB0B /* MenuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EB751B5E182D9D8C00DFFB0B /* MenuButton.png */; };
+		EB751B61182D9D8C00DFFB0B /* MenuButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB751B5F182D9D8C00DFFB0B /* MenuButton@2x.png */; };
+		EB751B64182DA0E400DFFB0B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB751B62182DA0E400DFFB0B /* Roboto-Light.ttf */; };
+		EB751B65182DA0E400DFFB0B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB751B63182DA0E400DFFB0B /* Roboto-Medium.ttf */; };
 		EBF3440518172D15006F27FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3440418172D15006F27FD /* Foundation.framework */; };
 		EBF3440718172D15006F27FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3440618172D15006F27FD /* CoreGraphics.framework */; };
 		EBF3440918172D15006F27FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF3440818172D15006F27FD /* UIKit.framework */; };
@@ -34,6 +50,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB751B3B182D6EF400DFFB0B /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		EB751B3C182D6EF400DFFB0B /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		EB751B3D182D6EF400DFFB0B /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		EB751B3E182D6EF400DFFB0B /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		EB751B3F182D6EF400DFFB0B /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		EB751B40182D6EF400DFFB0B /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		EB751B41182D6EF400DFFB0B /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		EB751B42182D6EF400DFFB0B /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		EB751B43182D6EF400DFFB0B /* MMExampleLeftSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleLeftSideDrawerViewController.h; sourceTree = "<group>"; };
+		EB751B44182D6EF400DFFB0B /* MMExampleLeftSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleLeftSideDrawerViewController.m; sourceTree = "<group>"; };
+		EB751B45182D6EF400DFFB0B /* MMExampleSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleSideDrawerViewController.h; sourceTree = "<group>"; };
+		EB751B46182D6EF400DFFB0B /* MMExampleSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleSideDrawerViewController.m; sourceTree = "<group>"; };
+		EB751B47182D6EF400DFFB0B /* MMSideDrawerSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSideDrawerSectionHeaderView.h; sourceTree = "<group>"; };
+		EB751B48182D6EF400DFFB0B /* MMSideDrawerSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSideDrawerSectionHeaderView.m; sourceTree = "<group>"; };
+		EB751B49182D6EF400DFFB0B /* MMSideDrawerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSideDrawerTableViewCell.h; sourceTree = "<group>"; };
+		EB751B4A182D6EF400DFFB0B /* MMSideDrawerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSideDrawerTableViewCell.m; sourceTree = "<group>"; };
+		EB751B4B182D6EF400DFFB0B /* MMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTableViewCell.h; sourceTree = "<group>"; };
+		EB751B4C182D6EF400DFFB0B /* MMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTableViewCell.m; sourceTree = "<group>"; };
+		EB751B56182D6F0C00DFFB0B /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		EB751B57182D6F0C00DFFB0B /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		EB751B59182D99F300DFFB0B /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		EB751B5A182D99F300DFFB0B /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		EB751B5D182D9A5000DFFB0B /* ViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDelegate.h; sourceTree = "<group>"; };
+		EB751B5E182D9D8C00DFFB0B /* MenuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuButton.png; sourceTree = "<group>"; };
+		EB751B5F182D9D8C00DFFB0B /* MenuButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuButton@2x.png"; sourceTree = "<group>"; };
+		EB751B62182DA0E400DFFB0B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		EB751B63182DA0E400DFFB0B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		EBF3440118172D15006F27FD /* Carillon Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carillon Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF3440418172D15006F27FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBF3440618172D15006F27FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +122,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB751B3A182D6EE600DFFB0B /* Drawer Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB751B56182D6F0C00DFFB0B /* UIViewController+MMDrawerController.h */,
+				EB751B57182D6F0C00DFFB0B /* UIViewController+MMDrawerController.m */,
+				EB751B3B182D6EF400DFFB0B /* MMDrawerBarButtonItem.h */,
+				EB751B3C182D6EF400DFFB0B /* MMDrawerBarButtonItem.m */,
+				EB751B3D182D6EF400DFFB0B /* MMDrawerController.h */,
+				EB751B3E182D6EF400DFFB0B /* MMDrawerController.m */,
+				EB751B3F182D6EF400DFFB0B /* MMDrawerVisualState.h */,
+				EB751B40182D6EF400DFFB0B /* MMDrawerVisualState.m */,
+				EB751B41182D6EF400DFFB0B /* MMExampleDrawerVisualStateManager.h */,
+				EB751B42182D6EF400DFFB0B /* MMExampleDrawerVisualStateManager.m */,
+				EB751B43182D6EF400DFFB0B /* MMExampleLeftSideDrawerViewController.h */,
+				EB751B44182D6EF400DFFB0B /* MMExampleLeftSideDrawerViewController.m */,
+				EB751B47182D6EF400DFFB0B /* MMSideDrawerSectionHeaderView.h */,
+				EB751B48182D6EF400DFFB0B /* MMSideDrawerSectionHeaderView.m */,
+				EB751B49182D6EF400DFFB0B /* MMSideDrawerTableViewCell.h */,
+				EB751B4A182D6EF400DFFB0B /* MMSideDrawerTableViewCell.m */,
+				EB751B4B182D6EF400DFFB0B /* MMTableViewCell.h */,
+				EB751B4C182D6EF400DFFB0B /* MMTableViewCell.m */,
+			);
+			name = "Drawer Classes";
+			sourceTree = "<group>";
+		};
 		EBF343F818172D15006F27FD = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +180,22 @@
 		EBF3440A18172D15006F27FD /* Carillon Lite */ = {
 			isa = PBXGroup;
 			children = (
+				EBF3443918172D4E006F27FD /* iPad */,
 				EBF3441318172D15006F27FD /* AppDelegate.h */,
 				EBF3441418172D15006F27FD /* AppDelegate.m */,
 				EBF3441618172D15006F27FD /* Main.storyboard */,
-				EBF3441918172D15006F27FD /* ViewController.h */,
+				EB751B5D182D9A5000DFFB0B /* ViewControllerDelegate.h */,
+				EB751B45182D6EF400DFFB0B /* MMExampleSideDrawerViewController.h */,
+				EB751B46182D6EF400DFFB0B /* MMExampleSideDrawerViewController.m */,
+				EB751B59182D99F300DFFB0B /* ViewController_iPhone.xib */,
+				EB751B5A182D99F300DFFB0B /* ViewController_iPad.xib */,
 				EBF3441A18172D15006F27FD /* ViewController.m */,
+				EBF3441918172D15006F27FD /* ViewController.h */,
+				EB751B5E182D9D8C00DFFB0B /* MenuButton.png */,
+				EB751B5F182D9D8C00DFFB0B /* MenuButton@2x.png */,
+				EB751B62182DA0E400DFFB0B /* Roboto-Light.ttf */,
+				EB751B63182DA0E400DFFB0B /* Roboto-Medium.ttf */,
+				EB751B3A182D6EE600DFFB0B /* Drawer Classes */,
 				EBF3441C18172D15006F27FD /* Images.xcassets */,
 				EBF3440B18172D15006F27FD /* Supporting Files */,
 			);
@@ -150,6 +229,13 @@
 				EBF3442C18172D16006F27FD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF3443918172D4E006F27FD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +315,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBF3441D18172D15006F27FD /* Images.xcassets in Resources */,
+				EB751B61182D9D8C00DFFB0B /* MenuButton@2x.png in Resources */,
 				EBF3440F18172D15006F27FD /* InfoPlist.strings in Resources */,
 				EBF3441818172D15006F27FD /* Main.storyboard in Resources */,
+				EB751B5C182D99F300DFFB0B /* ViewController_iPad.xib in Resources */,
+				EB751B60182D9D8C00DFFB0B /* MenuButton.png in Resources */,
+				EB751B64182DA0E400DFFB0B /* Roboto-Light.ttf in Resources */,
+				EB751B5B182D99F300DFFB0B /* ViewController_iPhone.xib in Resources */,
+				EB751B65182DA0E400DFFB0B /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB751B50182D6EF400DFFB0B /* MMExampleDrawerVisualStateManager.m in Sources */,
+				EB751B4F182D6EF400DFFB0B /* MMDrawerVisualState.m in Sources */,
+				EB751B52182D6EF400DFFB0B /* MMExampleSideDrawerViewController.m in Sources */,
+				EB751B54182D6EF400DFFB0B /* MMSideDrawerTableViewCell.m in Sources */,
 				EBF3441B18172D15006F27FD /* ViewController.m in Sources */,
+				EB751B55182D6EF400DFFB0B /* MMTableViewCell.m in Sources */,
+				EB751B4E182D6EF400DFFB0B /* MMDrawerController.m in Sources */,
+				EB751B51182D6EF400DFFB0B /* MMExampleLeftSideDrawerViewController.m in Sources */,
+				EB751B4D182D6EF400DFFB0B /* MMDrawerBarButtonItem.m in Sources */,
+				EB751B58182D6F0C00DFFB0B /* UIViewController+MMDrawerController.m in Sources */,
 				EBF3441518172D15006F27FD /* AppDelegate.m in Sources */,
 				EBF3441118172D15006F27FD /* main.m in Sources */,
+				EB751B53182D6EF400DFFB0B /* MMSideDrawerSectionHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +478,14 @@
 		EBF3443418172D16006F27FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Carillon Lite/Carillon Lite-Prefix.pch";
 				INFOPLIST_FILE = "Carillon Lite/Carillon Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,12 +493,14 @@
 		EBF3443518172D16006F27FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Carillon Lite/Carillon Lite-Prefix.pch";
 				INFOPLIST_FILE = "Carillon Lite/Carillon Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +566,7 @@
 				EBF3443518172D16006F27FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBF3443618172D16006F27FD /* Build configuration list for PBXNativeTarget "Carillon LiteTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +575,7 @@
 				EBF3443818172D16006F27FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
